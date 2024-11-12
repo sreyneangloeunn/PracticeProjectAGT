@@ -49,11 +49,9 @@ url_label.pack(pady=10)
 url_entry = tk.Entry(root, width=50)
 url_entry.pack(pady=10)
 
-# Create a download button
 download_button = tk.Button(root, text="Download Audio", command=download_audio)
 download_button.pack(pady=20)
 
-# Start the Tkinter main loop
 root.mainloop()
 
 
